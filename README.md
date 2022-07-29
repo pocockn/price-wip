@@ -1,46 +1,21 @@
-<p align="center"><a href="https://github.com/MrZalTy/node-template">
-  <img src=".github/assets/logo.svg" width="80" alt="Logo" /></a>
-</p>
+## Run
 
-<h1 align="center">Node.js Template</h1>
+node src/ethereum.js
 
-<p align="center">Quickly start a new Node.js project</p>
+## Output 
 
----
-
-A template to quickly start a new Node.js project.
-
-## :fast_forward: Getting Started
-
-**1) Use this template**
-
-Just click to the `Use this template` button at the top of this repository :boom:
-
-## :computer: Technologies
-
-<p>
-  <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="nodejs" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="typescript" />
-</p>
-
-## :pencil: License
-
-Node.js Template is distributed under the [MIT License](LICENSE)
-
-## :ok_hand: Authors
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/MrZalTy">
-        <img src="https://avatars.githubusercontent.com/u/25481821?v=4?s=100" width="100px;" alt="avatar"/><br />
-      <sub>
-        <b>MrZalTy</b>
-      </sub>
-    </a>
-  </tr>
-</table>
-
----
-
-> :rocket: Don't forgot to put a :star: on my repositories !
+Uniswap:
+WETH / USDC   1679613067000000
+WETH / WBTC   710776200000000
+WETH / USDT   1680118883000000
+WETH / YFI   1.868773928660363e+35
+WETH / UNI   1.899412837769366e+38
+WETH / DAI   1.6793072625215194e+39
+--------
+SushiSwap:
+WETH / USDC   1677497493000000
+WETH / UNI   1.9181894569081815e+38
+WETH / YFI   1.8577090007951005e+35
+WETH / WBTC   711316700000000
+WETH / DAI   1.6801752018347144e+39
+WETH / USDT   1678898786000000
