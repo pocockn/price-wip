@@ -22,16 +22,16 @@ class EthereumCalculator {
 
   async getSellPrice() {
     const pathToSell = await this.routerContract.methods.getAmountsOut(
-      this.swapAmount, // input: weth -> max dai
-      [ this.swapFrom, this.swapTo ], // input: weth, output: dai
+      this.swapAmount,
+      [ this.swapFrom, this.swapTo ],
     ).call();
     return web3.utils.fromWei(pathToSell[pathToSell.length - 1], 'ether') * 100/ 100;
   }
 
   async getBuyPrice() {
     const pathToBuy = await this.routerContract.methods.getAmountsIn(
-      this.swapAmount, // output: weth -> min dai
-      [ this.swapTo, this.swapFrom ], // input: dai, output: weth
+      this.swapAmount,
+      [ this.swapTo, this.swapFrom ],
     ).call();
     return Math.floor(ethers.utils.parseUnits(pathToBuy[0], this.swapToDecimal) * 100) / 100
   }
